@@ -1,0 +1,85 @@
+#quote-box {
+  text-align: center;
+  max-width: 450px;
+  width: auto;
+  max-height: 600px;
+  background: white;
+  padding: 40px 50px;
+  border-radius: 5px;
+}
+
+.buttons {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.75s;
+}
+.buttons .button:hover {
+  opacity: 0.9;
+}
+
+.buttons .button#tweet-quote,
+.buttons .button#tumblr-quote {
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+#new-quote {
+  margin-left: auto;
+}
+
+.quote-text {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.quote-text .icon {
+  margin-right: 0.4em;
+}
+
+.quote-author {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.75s;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.75s;
+}
+.fade-exit-done {
+  opacity: 0;
+}
+.fade-enter-done {
+  opacity: 1;
+}
